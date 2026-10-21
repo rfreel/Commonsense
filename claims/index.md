@@ -1,6 +1,6 @@
 # Claim index
 
-Formal verification status on import: **formalized; compiler check pending**. See each file for exact scope.
+Formal verification: **compiler-verified** with Lean 4.24.0 in [GitHub Actions](https://github.com/rfreel/Commonsense/actions/runs/39693844539) (commit `6c7c0c1a`). See each file for exact scope.
 
 | ID | Intuition challenged | Lean module | Claim record |
 |---|---|---|---|

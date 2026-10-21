@@ -1,6 +1,6 @@
 # CI-003: Nontransitive dice
 
-- **Formal verification:** formalized; compiler check pending
+- **Formal verification:** compiler-verified (Lean 4.24.0; [successful CI run](https://github.com/rfreel/Commonsense/actions/runs/39693844539) on commit `6c7c0c1a`)
 - **Writing status:** captured
 - **Source module:** [Commonsense/NontransitiveDice.lean](../Commonsense/NontransitiveDice.lean)
 - **First recorded:** 2026-10-21
@@ -24,4 +24,4 @@ There can be no universal champion, even with fixed simple rules.
 What does this imply for pairwise model-evaluation leaderboards?
 
 ## Provenance
-Example first formalized in the October 21, 2026 Commonsense discussion. Lean compiler verification was not performed before repository import. Check the Actions result for the commit before changing proof status.
+Example first formalized in the October 21, 2026 Commonsense discussion. The initial draft was unverified; compiler verification succeeded in [GitHub Actions](https://github.com/rfreel/Commonsense/actions/runs/39693844539) on commit `6c7c0c1a244cbead947386d8dc5df3ab72024256` with proof files unchanged.

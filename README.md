@@ -19,4 +19,4 @@ lake build
 
 GitHub Actions performs the same build on pushed commits and pull requests.
 
-**Provenance:** The initial six examples originated in an October 21, 2026 discussion. The original proofs had not been checked in a Lean compiler when drafted; GitHub Actions is the first independent compiler gate. Formal proofs establish the specific encoded propositions, not unrestricted empirical interpretations.
+**Provenance:** The initial six examples originated in an October 21, 2026 discussion. The original proofs had not been checked in a Lean compiler when drafted; GitHub Actions is the first independent compiler gate. A [successful Lean 4.24.0 build](https://github.com/rfreel/Commonsense/actions/runs/39693844539) subsequently verified all six modules. Formal proofs establish the specific encoded propositions, not unrestricted empirical interpretations.
