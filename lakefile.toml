@@ -1,0 +1,6 @@
+name = "commonsense"
+version = "0.1.0"
+defaultTargets = ["Commonsense"]
+
+[[lean_lib]]
+name = "Commonsense"

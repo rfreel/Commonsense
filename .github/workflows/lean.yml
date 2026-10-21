@@ -1,0 +1,21 @@
+name: Lean verification
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Reject proof placeholders
+        run: |
+          if grep -R -n -E '(^|[^[:alnum:]_])(sorry|admit)([^[:alnum:]_]|$)|^[[:space:]]*axiom[[:space:]]' --include='*.lean' Commonsense Commonsense.lean; then
+            exit 1
+          fi
+      - uses: leanprover/lean-action@v1
+        with:
+          test: false
+          build-args: "--wfail"
