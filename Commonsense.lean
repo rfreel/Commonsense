@@ -11,3 +11,6 @@ import Commonsense.Inference
 import Commonsense.GreedyAlgorithms
 import Commonsense.Games
 import Commonsense.Voting
+import Commonsense.Networks
+import Commonsense.Infinite
+import Commonsense.MoreExamples
