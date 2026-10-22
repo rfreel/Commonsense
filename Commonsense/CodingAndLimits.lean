@@ -66,7 +66,7 @@ theorem strictly_increasing_but_bounded :
     omega
 
 /-- CI-080. False: arbitrarily long finite descending chains guarantee an
-infinite descending chain. Natural numbers admit a countdown of every
+infinite descending chain. Natural numbers support a countdown of every
 finite length, but no function Nat -> Nat decreases strictly forever. -/
 theorem arbitrarily_long_not_infinite :
     (∀ bound : Nat, ∃ f : Nat → Nat,
