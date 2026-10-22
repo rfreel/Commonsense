@@ -14,3 +14,6 @@ import Commonsense.Voting
 import Commonsense.Networks
 import Commonsense.Infinite
 import Commonsense.MoreExamples
+import Commonsense.Allocation
+import Commonsense.Packing
+import Commonsense.Scheduling
