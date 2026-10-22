@@ -25,9 +25,9 @@ theorem cheapest_schedule_is_infeasible :
   constructor
   · decide
   constructor
-  · decide
+  · simp [noOverlap]
   constructor
-  · decide
+  · simp [noOverlap]
   · intro a b
     simp [scheduleCost]
     omega
