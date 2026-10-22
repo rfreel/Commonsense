@@ -4,3 +4,6 @@ import Commonsense.NontransitiveDice
 import Commonsense.BaseRates
 import Commonsense.GreedyChoice
 import Commonsense.Probability
+import Commonsense.Strengthened
+import Commonsense.Averages
+import Commonsense.FiniteProbability
