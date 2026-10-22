@@ -2,7 +2,7 @@
 
 Claim → Lean proof → next claim.
 
-**50 claim-proof pairs:** the original six strengthened and 44 additional counterexamples. Each English claim sits immediately above its formal statement and proof in the Lean source. Necessary assumptions are encoded in the statement and its definitions.
+**80 claim-proof pairs:** the original six strengthened and 74 additional counterexamples. Each English claim sits immediately above its formal statement and proof in the Lean source. Necessary assumptions are encoded in the statement and its definitions.
 
 Start with the [claim index](claims/index.md). For later writing, use the [one-sentence log entries](writing/idea-log.md).
 
@@ -30,5 +30,12 @@ The existing GitHub Actions workflow runs this build. [Commonsense.lean](Commons
 | CI-041–044, CI-047 | Networks, matchings, and sets | [Networks](Commonsense/Networks.lean) |
 | CI-045–046 | Infinite sets | [Infinite](Commonsense/Infinite.lean) |
 | CI-048–050 | Monty Hall, expectation, and medians | [MoreExamples](Commonsense/MoreExamples.lean) |
+| CI-051–055 | Apportionment and voting power | [Allocation](Commonsense/Allocation.lean) |
+| CI-056–059 | Bin-packing reversals | [Packing](Commonsense/Packing.lean) |
+| CI-060–064 | Scheduling and competing objectives | [Scheduling](Commonsense/Scheduling.lean) |
+| CI-065–069 | Moments, calibration, and prediction losses | [StatisticalPitfalls](Commonsense/StatisticalPitfalls.lean) |
+| CI-070–074 | Transformations, units, and geometry | [Transformations](Commonsense/Transformations.lean) |
+| CI-075–076 | Graph paths and degree sequences | [GraphShapes](Commonsense/GraphShapes.lean) |
+| CI-077–080 | Coding, confidence, and infinite limits | [CodingAndLimits](Commonsense/CodingAndLimits.lean) |
 
 The original six proof modules are retained; their stronger statements keep the same claim IDs rather than being counted as new discoveries.

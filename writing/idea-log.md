@@ -206,3 +206,67 @@ CI-048: An informed host's reveal can leave switching twice as successful as sta
 CI-049: An expected payout of one can coexist with a 99% chance of zero (`Commonsense.MoreExamples.expectation_one_usually_zero`).
 
 CI-050: Equal-size group medians can yield four while the pooled median is five (`Commonsense.MoreExamples.median_of_medians_not_pooled`).
+
+---
+
+## 2026-10-21 | Second claim-proof batch
+
+CI-051: Adding a seat can remove a group's seat under largest-remainder apportionment (`Commonsense.Allocation.more_seats_can_remove_a_seat`).
+
+CI-052: A voter with weight two can have the same pivotal power as voters with weight 49 (`Commonsense.Allocation.small_voter_equal_swing_power`).
+
+CI-053: Positive voting weights can carry zero pivotal power (`Commonsense.Allocation.positive_weight_zero_power`).
+
+CI-054: The head-to-head winner can lose Borda scoring (`Commonsense.Allocation.pairwise_winner_loses_borda`).
+
+CI-055: Highest-averages apportionment can exceed a group's upper quota (`Commonsense.Allocation.highest_averages_exceeds_upper_quota`).
+
+CI-056: Increasing first-fit bin capacity from 60 to 61 can increase bin count from three to four (`Commonsense.Packing.larger_bins_more_bins`).
+
+CI-057: Shrinking one item from five to four can make first-fit use six bins instead of five (`Commonsense.Packing.smaller_item_more_bins`).
+
+CI-058: First-fit can use three bins for items that fit in two (`Commonsense.Packing.first_fit_not_minimum`).
+
+CI-059: Sorting items in decreasing size still need not make first-fit optimal (`Commonsense.Packing.decreasing_first_fit_not_minimum`).
+
+CI-060: Deliberate idling can reduce total completion time from 21 to 14 (`Commonsense.Scheduling.useful_idle_time`).
+
+CI-061: Shortest-first scheduling can miss a deadline that another order meets (`Commonsense.Scheduling.shortest_first_not_least_tardy`).
+
+CI-062: Shortest-first scheduling can worsen weighted completion time (`Commonsense.Scheduling.shortest_first_not_weighted_best`).
+
+CI-063: The unique shortest interval can block two mutually compatible intervals (`Commonsense.Scheduling.shortest_interval_blocks_two`).
+
+CI-064: Sending every job to its individually fastest machine can slow the whole batch (`Commonsense.Scheduling.individually_fastest_collectively_slower`).
+
+CI-065: Identical means and variances can conceal different distributions (`Commonsense.StatisticalPitfalls.same_moments_different_distributions`).
+
+CI-066: A perfectly calibrated constant forecast can distinguish no positive case from any negative case (`Commonsense.StatisticalPitfalls.calibrated_but_no_discrimination`).
+
+CI-067: Perfect classification accuracy can have worse probability error than 50% accuracy (`Commonsense.StatisticalPitfalls.more_accurate_worse_probability_score`).
+
+CI-068: Equal sensitivity and specificity across groups can coexist with unequal predictive values (`Commonsense.StatisticalPitfalls.equal_error_rates_unequal_precision`).
+
+CI-069: Changing from absolute to squared error changes the best constant prediction (`Commonsense.StatisticalPitfalls.best_prediction_depends_on_loss`).
+
+CI-070: A strictly increasing transformation can reverse group-mean rankings (`Commonsense.Transformations.increasing_transform_reverses_mean_ranking`).
+
+CI-071: Changing one coordinate's units can reverse raw nearest-neighbor selection (`Commonsense.Transformations.units_reverse_nearest_neighbor`).
+
+CI-072: Two individually reversible operations can produce different results in opposite orders (`Commonsense.Transformations.reversible_operations_do_not_commute`).
+
+CI-073: A rectangle can enclose more area with less perimeter (`Commonsense.Transformations.larger_area_smaller_perimeter`).
+
+CI-074: Equal-volume boxes can require different surface areas (`Commonsense.Transformations.same_volume_different_surface`).
+
+CI-075: A connected graph need not have a route visiting every vertex exactly once (`Commonsense.GraphShapes.connected_without_hamilton_path`).
+
+CI-076: Graphs with identical degree sequences can have incompatible shapes (`Commonsense.GraphShapes.same_degrees_different_graphs`).
+
+CI-077: Distinct nonempty codewords can produce identical encodings of different messages (`Commonsense.CodingAndLimits.distinct_codewords_ambiguous_messages`).
+
+CI-078: Additional evidence can reduce confidence in the most likely binary outcome (`Commonsense.CodingAndLimits.evidence_can_reduce_confidence`).
+
+CI-079: A rational sequence can increase strictly forever while remaining below one (`Commonsense.CodingAndLimits.strictly_increasing_but_bounded`).
+
+CI-080: Natural numbers have arbitrarily long finite descending chains but no infinite descending chain (`Commonsense.CodingAndLimits.arbitrarily_long_not_infinite`).

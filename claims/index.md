@@ -1,6 +1,6 @@
 # Claims and proofs
 
-50 claims, each refuted by the linked Lean statement and proof. The English claim is also directly above the theorem in its source file. Definitions and hypotheses specify the exact model; the original six examples have stronger statements under their existing IDs.
+80 claims, each refuted by the linked Lean statement and proof. The English claim is also directly above the theorem in its source file. Definitions and hypotheses specify the exact model; the original six examples have stronger statements under their existing IDs.
 
 | ID | Claim refuted | Lean theorem |
 |---|---|---|
@@ -54,3 +54,33 @@
 | CI-048 | After an informed host reveals a goat, staying and switching are equally likely. | [switching_is_not_fifty_fifty](../Commonsense/MoreExamples.lean) |
 | CI-049 | Expected payout one makes a positive payout likely. | [expectation_one_usually_zero](../Commonsense/MoreExamples.lean) |
 | CI-050 | The median of equal-size group medians equals the pooled median. | [median_of_medians_not_pooled](../Commonsense/MoreExamples.lean) |
+| CI-051 | Adding seats cannot remove a group's seat under largest-remainder apportionment. | [more_seats_can_remove_a_seat](../Commonsense/Allocation.lean) |
+| CI-052 | Pivotal voting power is proportional to voting weight. | [small_voter_equal_swing_power](../Commonsense/Allocation.lean) |
+| CI-053 | Positive voting weight guarantees positive pivotal power. | [positive_weight_zero_power](../Commonsense/Allocation.lean) |
+| CI-054 | A candidate beating every opponent head-to-head must win Borda scoring. | [pairwise_winner_loses_borda](../Commonsense/Allocation.lean) |
+| CI-055 | Highest-averages apportionment always respects upper quota. | [highest_averages_exceeds_upper_quota](../Commonsense/Allocation.lean) |
+| CI-056 | Increasing bin capacity cannot increase first-fit bin count. | [larger_bins_more_bins](../Commonsense/Packing.lean) |
+| CI-057 | Shrinking an item cannot increase first-fit bin count. | [smaller_item_more_bins](../Commonsense/Packing.lean) |
+| CI-058 | First-fit packing always uses the fewest bins. | [first_fit_not_minimum](../Commonsense/Packing.lean) |
+| CI-059 | Sorting items largest-first makes first-fit packing exact. | [decreasing_first_fit_not_minimum](../Commonsense/Packing.lean) |
+| CI-060 | Avoiding idle time always minimizes total completion time. | [useful_idle_time](../Commonsense/Scheduling.lean) |
+| CI-061 | Shortest-processing-time first minimizes maximum tardiness. | [shortest_first_not_least_tardy](../Commonsense/Scheduling.lean) |
+| CI-062 | Shortest-processing-time first minimizes weighted total completion time. | [shortest_first_not_weighted_best](../Commonsense/Scheduling.lean) |
+| CI-063 | Choosing the shortest intervals yields the most compatible intervals. | [shortest_interval_blocks_two](../Commonsense/Scheduling.lean) |
+| CI-064 | Assigning each job to its fastest machine minimizes batch completion time. | [individually_fastest_collectively_slower](../Commonsense/Scheduling.lean) |
+| CI-065 | Equal means and variances determine a probability distribution. | [same_moments_different_distributions](../Commonsense/StatisticalPitfalls.lean) |
+| CI-066 | Perfect calibration guarantees discrimination. | [calibrated_but_no_discrimination](../Commonsense/StatisticalPitfalls.lean) |
+| CI-067 | Higher classification accuracy implies a better Brier score. | [more_accurate_worse_probability_score](../Commonsense/StatisticalPitfalls.lean) |
+| CI-068 | Equal sensitivity and specificity imply equal positive predictive value. | [equal_error_rates_unequal_precision](../Commonsense/StatisticalPitfalls.lean) |
+| CI-069 | The best constant prediction is independent of the loss function. | [best_prediction_depends_on_loss](../Commonsense/StatisticalPitfalls.lean) |
+| CI-070 | Strictly increasing transformations preserve mean rankings. | [increasing_transform_reverses_mean_ranking](../Commonsense/Transformations.lean) |
+| CI-071 | Changing units cannot alter raw nearest-neighbor selection. | [units_reverse_nearest_neighbor](../Commonsense/Transformations.lean) |
+| CI-072 | Reversible operations commute. | [reversible_operations_do_not_commute](../Commonsense/Transformations.lean) |
+| CI-073 | More rectangle area requires a longer perimeter. | [larger_area_smaller_perimeter](../Commonsense/Transformations.lean) |
+| CI-074 | Equal-volume boxes require equal surface area. | [same_volume_different_surface](../Commonsense/Transformations.lean) |
+| CI-075 | Every connected undirected graph has a Hamilton path. | [connected_without_hamilton_path](../Commonsense/GraphShapes.lean) |
+| CI-076 | A degree sequence determines a graph up to relabeling. | [same_degrees_different_graphs](../Commonsense/GraphShapes.lean) |
+| CI-077 | Distinct nonempty codewords guarantee unambiguous messages. | [distinct_codewords_ambiguous_messages](../Commonsense/CodingAndLimits.lean) |
+| CI-078 | Additional evidence can only increase confidence in the most likely outcome. | [evidence_can_reduce_confidence](../Commonsense/CodingAndLimits.lean) |
+| CI-079 | A strictly increasing rational sequence must be unbounded. | [strictly_increasing_but_bounded](../Commonsense/CodingAndLimits.lean) |
+| CI-080 | Arbitrarily long finite descending chains guarantee an infinite descending chain. | [arbitrarily_long_not_infinite](../Commonsense/CodingAndLimits.lean) |
