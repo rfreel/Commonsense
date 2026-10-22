@@ -7,3 +7,7 @@ import Commonsense.Probability
 import Commonsense.Strengthened
 import Commonsense.Averages
 import Commonsense.FiniteProbability
+import Commonsense.Inference
+import Commonsense.GreedyAlgorithms
+import Commonsense.Games
+import Commonsense.Voting
