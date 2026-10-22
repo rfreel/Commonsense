@@ -9,7 +9,7 @@ def count (n : Nat) (event : Nat → Bool) : Nat :=
 
 def inter (a b : Nat → Bool) : Nat → Bool := fun i => a i && b i
 
-def independent (n : Nat) (a b : Nat → Bool) : Prop :=
+abbrev independent (n : Nat) (a b : Nat → Bool) : Prop :=
   count n (inter a b) * n = count n a * count n b
 
 def a (i : Nat) : Bool := decide (i < 2)

@@ -30,7 +30,7 @@ theorem average_of_rates :
   refine ⟨9, 10, 9, 90, ?_⟩
   decide
 
-def meanLT (xs ys : List Nat) : Prop :=
+abbrev meanLT (xs ys : List Nat) : Prop :=
   xs.sum * ys.length < ys.sum * xs.length
 
 /-- CI-010. False: moving one unchanged observation between two nonempty

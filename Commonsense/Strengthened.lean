@@ -33,7 +33,7 @@ theorem condorcet_counterexample :
       1 < supportCount a c) := by
   decide
 
-def winsMore (a b : List Nat) : Prop :=
+abbrev winsMore (a b : List Nat) : Prop :=
   2 * faceWins a b > a.length * b.length
 
 /-- CI-003. False: winning more than half of independent, uniform face-pair
