@@ -17,3 +17,7 @@ import Commonsense.MoreExamples
 import Commonsense.Allocation
 import Commonsense.Packing
 import Commonsense.Scheduling
+import Commonsense.StatisticalPitfalls
+import Commonsense.Transformations
+import Commonsense.GraphShapes
+import Commonsense.CodingAndLimits
