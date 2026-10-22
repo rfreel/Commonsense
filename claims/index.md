@@ -84,3 +84,14 @@
 | CI-078 | Additional evidence can only increase confidence in the most likely outcome. | [evidence_can_reduce_confidence](../Commonsense/CodingAndLimits.lean) |
 | CI-079 | A strictly increasing rational sequence must be unbounded. | [strictly_increasing_but_bounded](../Commonsense/CodingAndLimits.lean) |
 | CI-080 | Arbitrarily long finite descending chains guarantee an infinite descending chain. | [arbitrarily_long_not_infinite](../Commonsense/CodingAndLimits.lean) |
+
+## Expert conclusions and missing premises
+
+| ID | Broader conclusion refuted | Theorem |
+|---|---|---|
+| E-001 | Highest reward necessarily fulfills the real goal. | [reward_optimal_goal_inferior](../Commonsense/ExpertClaims.lean) |
+| E-008 | Lowest-cost modeled schedule necessarily respects shared resources. | [cheapest_schedule_is_infeasible](../Commonsense/ExpertClaims.lean) |
+| E-012 | Individually dominant actions necessarily maximize collective welfare. | [dominant_actions_collectively_inferior](../Commonsense/ExpertClaims.lean) |
+| E-016 | Better validation accuracy necessarily means better deployment accuracy. | [validation_winner_deployment_loser](../Commonsense/ExpertClaims.lean) |
+| E-020 | Correct implementation of a specification necessarily meets intended requirements. | [verified_to_spec_wrong_for_goal](../Commonsense/ExpertClaims.lean) |
+| E-022 | An improved surrogate necessarily means improved actual outcomes. | [surrogate_improves_outcome_worsens](../Commonsense/ExpertClaims.lean) |

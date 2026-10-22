@@ -270,3 +270,17 @@ CI-078: Additional evidence can reduce confidence in the most likely binary outc
 CI-079: A rational sequence can increase strictly forever while remaining below one (`Commonsense.CodingAndLimits.strictly_increasing_but_bounded`).
 
 CI-080: Natural numbers have arbitrarily long finite descending chains but no infinite descending chain (`Commonsense.CodingAndLimits.arbitrarily_long_not_infinite`).
+
+## 2026-10-21 | Expert missing-premise proofs
+
+E-001: The reward winner loses on the actual goal (`Commonsense.ExpertClaims.reward_optimal_goal_inferior`).
+
+E-008: A lower-cost two-job schedule violates capacity one (`Commonsense.ExpertClaims.cheapest_schedule_is_infeasible`).
+
+E-012: Both players' dominant choices give both lower payoffs (`Commonsense.ExpertClaims.dominant_actions_collectively_inferior`).
+
+E-016: The validation winner becomes the deployment loser (`Commonsense.ExpertClaims.validation_winner_deployment_loser`).
+
+E-020: Perfect compliance with a written specification misses the intended function (`Commonsense.ExpertClaims.verified_to_spec_wrong_for_goal`).
+
+E-022: A surrogate score improves while the real outcome deteriorates (`Commonsense.ExpertClaims.surrogate_improves_outcome_worsens`).

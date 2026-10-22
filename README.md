@@ -39,3 +39,7 @@ The existing GitHub Actions workflow runs this build. [Commonsense.lean](Commons
 | CI-077–080 | Coding, confidence, and infinite limits | [CodingAndLimits](Commonsense/CodingAndLimits.lean) |
 
 The original six proof modules are retained; their stronger statements keep the same claim IDs rather than being counted as new discoveries.
+
+## Expert claims, missing premises
+
+The [E-series](claims/index.md#expert-conclusions-and-missing-premises) proves small counterexamples in which a narrow technical result is correct but a broader conclusion fails. Start with [six examples](Commonsense/ExpertClaims.lean) spanning wrong objectives, omitted constraints, aggregation, distribution shift, requirements mismatch and inference overreach. These are formal toy models, not claims about the intent or competence of particular experts.

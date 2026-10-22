@@ -21,3 +21,4 @@ import Commonsense.StatisticalPitfalls
 import Commonsense.Transformations
 import Commonsense.GraphShapes
 import Commonsense.CodingAndLimits
+import Commonsense.ExpertClaims
